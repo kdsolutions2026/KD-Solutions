@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kd-solutionsweb.com.br/sitemap.xml

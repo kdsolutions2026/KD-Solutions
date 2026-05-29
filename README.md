@@ -1,1 +1,43 @@
-# KD-Solutions
+﻿# KD Solutions
+
+Site institucional da KD Solutions pronto para publicar no GitHub e Vercel.
+
+## Como subir no GitHub
+
+Suba o conteudo desta pasta como a raiz do repositorio:
+
+```text
+index.html
+robots.txt
+sitemap.xml
+assets/
+css/
+js/
+README.md
+```
+
+## Deploy na Vercel
+
+1. Importe este repositorio na Vercel.
+2. Use a raiz do repositorio como Root Directory.
+3. Depois do deploy, conecte o dominio final.
+
+## Dominio configurado no site
+
+O SEO tecnico esta preparado para:
+
+```text
+https://kdsolutions.com.br/
+```
+
+Se o dominio final for outro, atualize `index.html`, `robots.txt` e `sitemap.xml` antes de enviar ao Google Search Console.
+
+## Arquivos importantes
+
+- `index.html`: pagina principal pronta para publicacao.
+- `robots.txt`: permite rastreamento e aponta para o sitemap.
+- `sitemap.xml`: informa a URL principal ao Google.
+- `css/styles.css`: estilos do site.
+- `js/main.js`: interacoes do site.
+- `js/form-config.js`: configuracao do formulario Web3Forms.
+- `assets/images/`: imagens utilizadas no site.
