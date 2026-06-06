@@ -1,6 +1,6 @@
-﻿# KD Solutions
+# KD-Solutions
 
-Site institucional da KD Solutions pronto para publicar no GitHub e Vercel.
+Site institucional da KD-Solutions pronto para publicar no GitHub e Vercel.
 
 ## Como subir no GitHub
 
@@ -10,9 +10,7 @@ Suba o conteudo desta pasta como a raiz do repositorio:
 index.html
 robots.txt
 sitemap.xml
-assets/
-css/
-js/
+ativos/
 README.md
 ```
 
@@ -27,7 +25,7 @@ README.md
 O SEO tecnico esta preparado para:
 
 ```text
-https://kdsolutions.com.br/
+https://kdsolutionsweb.com.br/
 ```
 
 Se o dominio final for outro, atualize `index.html`, `robots.txt` e `sitemap.xml` antes de enviar ao Google Search Console.
@@ -37,7 +35,7 @@ Se o dominio final for outro, atualize `index.html`, `robots.txt` e `sitemap.xml
 - `index.html`: pagina principal pronta para publicacao.
 - `robots.txt`: permite rastreamento e aponta para o sitemap.
 - `sitemap.xml`: informa a URL principal ao Google.
-- `css/styles.css`: estilos do site.
-- `js/main.js`: interacoes do site.
-- `js/form-config.js`: configuracao do formulario Web3Forms.
-- `assets/images/`: imagens utilizadas no site.
+- `ativos/css/styles.css`: estilos do site.
+- `ativos/js/main.js`: interacoes do site.
+- `ativos/js/form-config.js`: configuracao do formulario Web3Forms.
+- `ativos/images/`: imagens utilizadas no site.

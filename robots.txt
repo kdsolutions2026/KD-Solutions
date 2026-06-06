@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kd-solutionsweb.com.br/sitemap.xml
+Sitemap: https://kdsolutionsweb.com.br/sitemap.xml
