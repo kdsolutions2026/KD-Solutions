@@ -1,0 +1,27 @@
+{
+  "output": "C:\\Users\\andre\\OneDrive\\Documents\\KD-Solutions\\Site KD-Solutions\\KD-Solutions-ENVIAR-GITHUB\\ativos\\images\\google-business-cover-editable-canva.pptx",
+  "outputBytes": 15033,
+  "slideCount": 1,
+  "slideSize": {
+    "width": 1280,
+    "height": 720
+  },
+  "previewDir": "C:\\Users\\andre\\OneDrive\\Documents\\KD-Solutions\\Site KD-Solutions\\outputs\\google-business-cover-canva\\preview",
+  "previewPaths": [
+    "C:\\Users\\andre\\OneDrive\\Documents\\KD-Solutions\\Site KD-Solutions\\outputs\\google-business-cover-canva\\preview\\slide-01.png"
+  ],
+  "layoutDir": "C:\\Users\\andre\\OneDrive\\Documents\\KD-Solutions\\Site KD-Solutions\\outputs\\google-business-cover-canva\\layout",
+  "layoutResults": [
+    {
+      "layoutPath": "C:\\Users\\andre\\OneDrive\\Documents\\KD-Solutions\\Site KD-Solutions\\outputs\\google-business-cover-canva\\layout\\slide-01.layout.json"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "requestedSlideNumber": 1,
+      "modulePath": "C:\\Users\\andre\\OneDrive\\Documents\\KD-Solutions\\Site KD-Solutions\\outputs\\google-business-cover-canva\\slides\\slide-01.mjs",
+      "exportName": "slide01"
+    }
+  ]
+}
