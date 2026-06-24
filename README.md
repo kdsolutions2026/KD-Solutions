@@ -1,81 +1,100 @@
-# KD-Solutions
+# KD-Solutions Website
 
-Site institucional da KD-Solutions, pronto para publicar no GitHub e fazer deploy na Vercel.
+Site institucional da KD-Solutions, desenvolvido para apresentar serviços, portfólio, diferenciais da empresa e canais de contato em uma experiência moderna, responsiva e orientada à conversão.
+
+## Visão geral
+
+Este projeto é uma landing page institucional com foco em:
+
+- apresentação da marca KD-Solutions
+- geração de leads via formulário e WhatsApp
+- exibição de portfólio e serviços
+- presença profissional da empresa na web
+- base técnica leve, sem dependência de framework
+
+O site está publicado em:
+
+`https://kdsolutionsweb.com.br/`
+
+## Principais recursos
+
+- Layout responsivo com experiência ajustada para desktop e mobile
+- Menu mobile com animações e tratamento visual otimizado para legibilidade
+- Seção de serviços com posicionamento comercial claro
+- Portfólio dinâmico renderizado via JavaScript
+- Blocos de diferenciais e apresentação dos fundadores
+- Formulário de contato integrado com Web3Forms
+- CTA direto para WhatsApp
+- SEO técnico com `meta description`, Open Graph, Twitter Card, `robots.txt`, `sitemap.xml` e dados estruturados `Organization`
+- Efeitos visuais com partículas, blur, glow, reveal on scroll e interações 3D controladas por contexto de dispositivo
+
+## Stack e bibliotecas
+
+- HTML5
+- CSS3
+- JavaScript Vanilla
+- [GSAP](https://gsap.com/) + ScrollTrigger
+- [tsParticles](https://particles.js.org/)
+- [Lenis](https://lenis.darkroom.engineering/)
+- [Font Awesome](https://fontawesome.com/)
+- [Web3Forms](https://web3forms.com/)
 
 ## Estrutura do projeto
 
 ```text
-.
-|-- index.html
+kdsolutions.com.br/
 |-- assets/
 |   |-- css/
 |   |   `-- styles.css
-|   |-- js/
-|   |   |-- form-config.js
-|   |   `-- main.js
-|   `-- images/
-|       `-- favicons/
+|   |-- images/
+|   |   |-- favicons/
+|   |   `-- arquivos visuais do site e portfólio
+|   `-- js/
+|       |-- form-config.js
+|       `-- main.js
 |-- docs/
+|   `-- materiais de apoio e arquivos não usados em produção
+|-- favicon.ico
+|-- index.html
 |-- robots.txt
-|-- sitemap.xml
-|-- vercel.json
-`-- README.md
+`-- sitemap.xml
 ```
 
-## Arquivos principais
+## Seções do site
 
-- `index.html`: pagina principal do site.
-- `assets/css/styles.css`: estilos da interface.
-- `assets/js/main.js`: interacoes, portfolio e efeitos.
-- `assets/js/form-config.js`: configuracao do formulario.
-- `assets/images/`: imagens usadas diretamente pelo site.
-- `assets/images/favicons/`: favicons usados na aba do navegador e pelo Google.
-- `docs/`: materiais de apoio e arquivos editaveis que nao sao carregados pelo site.
-- `robots.txt` e `sitemap.xml`: arquivos para SEO e Google Search Console.
-- `vercel.json`: configuracao simples para deploy na Vercel.
+- Hero principal
+- Serviços
+- Portfólio
+- Diferenciais
+- Sobre os fundadores
+- Contato
+- Rodapé com canais de atendimento
 
-## Como subir no GitHub
+## Como executar localmente
 
-1. Crie um repositorio no GitHub.
-2. Envie o conteudo desta pasta como a raiz do repositorio.
-3. Confirme que `index.html` esta na raiz, nao dentro de outra pasta.
-4. Depois de publicar, conecte o repositorio na Vercel.
+Como o projeto é estático, você pode abrir o `index.html` diretamente no navegador. Para uma experiência melhor de desenvolvimento, recomenda-se usar um servidor local simples, como:
 
-## Deploy na Vercel
+- extensão Live Server no VS Code
+- `python -m http.server`
+- qualquer servidor estático equivalente
 
-1. Importe o repositorio na Vercel.
-2. Use a raiz do repositorio como `Root Directory`.
-3. Nao precisa configurar build command.
-4. Depois do deploy, conecte o dominio:
+## Configuração do formulário
 
-```text
-https://kdsolutionsweb.com.br/
-```
+O formulário usa Web3Forms e a chave é configurada em:
 
-## Favicon no Google
+`assets/js/form-config.js`
 
-O projeto inclui favicons em tamanhos aceitos pelo navegador e pelo Google:
+Se for trocar a conta ou a chave de envio, atualize esse arquivo antes do deploy.
 
-- `favicon-32x32.png`
-- `favicon-48x48.png`
-- `favicon-96x96.png`
-- `favicon.ico`
-- `favicon.svg`
+## SEO e indexação
 
-Depois do deploy, teste:
+O projeto já inclui:
 
-```text
-https://kdsolutionsweb.com.br/assets/images/favicons/favicon-48x48.png
-```
+- `canonical`
+- Open Graph
+- Twitter Card
+- `robots.txt`
+- `sitemap.xml`
+- `schema.org` no formato `Organization`
 
-Se a logo aparecer, solicite indexacao da pagina inicial no Google Search Console. O Google pode levar alguns dias ou semanas para trocar o icone nos resultados.
-
-## Observacao sobre dominio
-
-O SEO tecnico esta preparado para:
-
-```text
-https://kdsolutionsweb.com.br/
-```
-
-Se o dominio mudar, atualize `index.html`, `robots.txt` e `sitemap.xml`.
+Após publicar novas alterações, é recomendável:
